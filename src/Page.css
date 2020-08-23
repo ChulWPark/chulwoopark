@@ -1,0 +1,18 @@
+h1 {
+    font-size: min(12vw, 64px);
+    font-family: Permanent Marker;
+}
+
+h2 {
+    font-size: min(4vw, 24px);
+    font-family: Rock Salt;
+}
+
+h3 {
+    font-size: min(1.2vw, 12px);
+    font-style: italic;
+}
+
+p {
+    font-size: min(2.5vw, 20px);
+}
