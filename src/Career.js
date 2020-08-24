@@ -42,7 +42,8 @@ export const Career = (props) => (
         <FormText>
             <h3>West Lafayette, Indiana, USA</h3>
             <h3>Undergraduate Teaching Assistant / Aug 2018 - Dec 2018</h3>
-            <p>Worked under ECE Department for Microprocessor Systems and Interfacing course (ECE 362) as a teaching assistant and helped students during the assigned office hour.</p>
+            <p>Worked under ECE Department for Microprocessor Systems and Interfacing course (ECE 362) as a teaching assistant.</p>
+            <p>Helped students during the assigned office hours.</p>
         </FormText>
         <br/><br/><hr width="40%"></hr><br/><br/>
         <Image src={FantomLogo} className="image-size-adjusted img-thumbnail" roundedCircle />
