@@ -9,7 +9,7 @@ const StyledSideNav = styled.div`
     position: fixed;     /* Fixed Sidebar (stay in place on scroll and position relative to viewport) */
     width: 60px;     /* Set the width of the sidebar */
     z-index: 1;      /* Stay on top of everything */
-    top: 300px;      /* Stay at the top (3.7em)*/
+    top: 265px;      /* Stay at the top (3.7em)*/
     background-color: white; /* White */
     overflow-x: hidden;     /* Disable horizontal scroll */
     padding-top: 10px;
@@ -25,7 +25,7 @@ const StyledNavItem = styled.div`
     margin-bottom: 0;   /* Puts space between NavItems */
     a {
         font-size: 2.5em;
-        color: ${(props) => props.active ? "gray" : "black"};
+        color: ${(props) => props.active ? "black" : "gray"};
         :hover {
             opacity: 0.7;
             text-decoration: none; /* Gets rid of underlining of icons */

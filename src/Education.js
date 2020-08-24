@@ -10,7 +10,7 @@ import HyundaiLogo from './images/HyundaiLogo.jpg';
 const Wrapper = styled.div`
     margin-top: 4em;
     margin-left: 60px;
-    margin-right: 60px;
+    margin-right: 30px;
     text-align: center;
 
     .image-size-adjusted {
@@ -31,7 +31,7 @@ export const Education = (props) => (
             <p>BS Computer Engineering '19</p>
             <p>Dean's List & Semester Honors</p>
         </FormText>
-        <br/><br/><br/>
+        <br/><br/><hr width="40%"></hr><br/><br/>
         <Image src={BlueRidgeLogo} className="image-size-adjusted img-thumbnail" roundedCircle />
         <label style={{marginLeft: "1vw"}}><h2>Blue Ridge School</h2></label>
         <FormText>
@@ -40,7 +40,7 @@ export const Education = (props) => (
             <p>Graduated as a valedictorian with the highest GPA</p>
             <p>Varisty Golf Team Captain</p>
         </FormText>
-        <br/><br/><br/>
+        <br/><br/><hr width="40%"></hr><br/><br/>
         <Image src={HyundaiLogo} className="image-size-adjusted img-thumbnail" roundedCircle />
         <label style={{marginLeft: "1vw"}}><h2>Hyundai Senior High School</h2></label>
         <FormText>
