@@ -3,6 +3,7 @@ import './Page.css';
 import { Image, FormText } from 'react-bootstrap';
 import styled from 'styled-components';
 
+import GoogleLogo from './images/GoogleLogo.png';
 import EpicLogo from './images/EpicLogo.png';
 import PurdueLogo from './images/PurdueLogo.jpg';
 import FantomLogo from './images/FantomLogo.jpg';
@@ -25,16 +26,27 @@ export const Career = (props) => (
     <Wrapper>
         <h1>Career</h1>
         <hr/><br/><br/>
+        <Image src={GoogleLogo} className="image-size-adjusted img-thumbnail" roundedCircle />
+        <label style={{marginLeft: "1vw"}}><h2>Google</h2></label>
+        <FormText>
+            <h3>Seattle, Washington, USA</h3>
+            <h3>Software Engineer | Jan 2022 - Present</h3>
+            <p>Google Cloud</p>
+            <p>Product Lifecycle - Control Team</p>
+            <p>Working on various projects to help Google Cloud customers to onboard and manage billing</p>
+            <p>Development in Java and Go</p>
+        </FormText>
+        <br/><br/><hr width="40%"></hr><br/><br/>
         <Image src={EpicLogo} className="image-size-adjusted img-thumbnail" roundedCircle />
         <label style={{marginLeft: "1vw"}}><h2>Epic</h2></label>
         <FormText>
             <h3>Verona, Wisconsin, USA</h3>
-            <h3>Software Developer | Sept 2019 - Present</h3>
+            <h3>Software Developer | Sept 2019 - Dec 2021</h3>
             <p>EpicCare Ambulatory (Outpatient) Department</p>
             <p>Encounter & Infrastructure Workgroup</p>
             <p>Healthcare Software Development</p>
-            <p>Working on various projects to help physicians to provide a better medical care for their patients</p>
-            <p>Development in C#, JS, HTML, CSS and M for Database</p>
+            <p>Worked on various projects to help physicians to provide a better medical care for their patients</p>
+            <p>Development in C#, JavaScript, HTML, CSS and M for Database</p>
         </FormText>
         <br/><br/><hr width="40%"></hr><br/><br/>
         <Image src={PurdueLogo} className="image-size-adjusted img-thumbnail" roundedCircle />
