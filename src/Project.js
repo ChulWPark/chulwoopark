@@ -13,6 +13,8 @@ const Wrapper = styled.div`
     margin-right: 30px;
     text-align: center;
 
+    color: lightblue;
+
     .video-container {
         position: relative;
         padding-bottom: 56.25%;
