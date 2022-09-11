@@ -10,6 +10,8 @@ const GridWrapper = styled.div`
     margin-left: 60px;
     margin-right: 30px;
     text-align: center;
+
+    color: lightblue;
     
     .image-size-adjusted {
         width: 50%;
