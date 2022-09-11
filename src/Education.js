@@ -13,6 +13,8 @@ const Wrapper = styled.div`
     margin-right: 30px;
     text-align: center;
 
+    color: lightblue;
+
     .image-size-adjusted {
         width: 20%;
         max-width: 100px;
