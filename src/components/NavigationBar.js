@@ -4,23 +4,24 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
     .navbar {
-        background-color: #222;
+        background-color: #ACE5EE;
     }
     a, .navbar-nav, .navbar-light .nav-link {
         color: white;
-        &:hover { color: gray; }
+        &:hover { color: black; }
     }
     .navbar-brand {
-        font-family: Bangers;
-        font-size: 24px;
+        font-family: 'Brush Script MT', cursive;
+        font-size: 42px;
         color: white;
-        &:hover { color: gray; }
+        &:hover { color: black; }
     }
     p {
-        font-size: 12px;
+        font-size: 20px;
         font-weight: bold;
         font-style: italic;
-        font-family: Sonsie One;
+        font-family: 'Times New Roman', serif;
+        &:hover { color: black; }
     }
 `;
 
