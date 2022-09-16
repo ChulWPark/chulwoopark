@@ -1,11 +1,12 @@
 h1 {
     font-size: min(12vw, 64px);
-    font-family: Permanent Marker;
+    font-family: "Ink Free", Times, serif;
+    font-weight: bold;
 }
 
 h2 {
     font-size: min(4vw, 24px);
-    font-family: Rock Salt;
+    font-family: "MV Boli", Times, serif;;
 }
 
 h3 {
