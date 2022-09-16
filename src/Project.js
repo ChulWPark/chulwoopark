@@ -1,7 +1,9 @@
 import React from 'react';
 import './Page.css';
-import { Form, FormText } from 'react-bootstrap';
+import { Image, Form, FormText } from 'react-bootstrap';
 import styled from 'styled-components';
+
+import ProjectHeader from './images/Text/Project.png'
 
 import MorphVideoLeft from "./videos/MorphVideoLeft.mp4"
 import MorphAppGUI from "./videos/MorphAppGUI.mp4"
@@ -13,7 +15,7 @@ const Wrapper = styled.div`
     margin-right: 30px;
     text-align: center;
 
-    color: lightblue;
+    color: black;
 
     .video-container {
         position: relative;
@@ -43,7 +45,7 @@ const Wrapper = styled.div`
 
 export const Project = (props) => (
     <Wrapper>
-        <h1>Project</h1>
+        <Image src={ProjectHeader} />
         <hr/>
         {/* Weather.3D */}
         <Form style={{marginTop: "8vw"}}>  

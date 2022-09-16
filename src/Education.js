@@ -3,6 +3,8 @@ import './Page.css';
 import { Image, FormText } from 'react-bootstrap';
 import styled from 'styled-components';
 
+import EducationHeader from './images/Text/Education.png'
+
 import PurdueLogo from './images/PurdueLogo.jpg';
 import BlueRidgeLogo from './images/BlueRidgeLogo.jpg';
 import HyundaiLogo from './images/HyundaiLogo.jpg';
@@ -13,7 +15,7 @@ const Wrapper = styled.div`
     margin-right: 30px;
     text-align: center;
 
-    color: lightblue;
+    color: black;
 
     .image-size-adjusted {
         width: 20%;
@@ -23,7 +25,7 @@ const Wrapper = styled.div`
 
 export const Education = (props) => (
     <Wrapper>
-        <h1>Education</h1>
+        <Image src={EducationHeader} />
         <hr/><br/><br/>
         <Image src={PurdueLogo} className="image-size-adjusted img-thumbnail" roundedCircle />
         <label style={{marginLeft: "1vw"}}><h2>Purdue University</h2></label>

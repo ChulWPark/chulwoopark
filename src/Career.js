@@ -3,6 +3,8 @@ import './Page.css';
 import { Image, FormText } from 'react-bootstrap';
 import styled from 'styled-components';
 
+import CareerHeader from './images/Text/Career.png'
+
 import GoogleLogo from './images/GoogleLogo.png';
 import EpicLogo from './images/EpicLogo.png';
 import PurdueLogo from './images/PurdueLogo.jpg';
@@ -16,7 +18,7 @@ const Wrapper = styled.div`
     margin-right: 30px;
     text-align: center;
 
-    color: lightblue;
+    color: black;
     
     .image-size-adjusted {
         width: 20%;
@@ -26,7 +28,7 @@ const Wrapper = styled.div`
 
 export const Career = (props) => (
     <Wrapper>
-        <h1>Career</h1>
+        <Image src={CareerHeader} />
         <hr/><br/><br/>
         <Image src={GoogleLogo} className="image-size-adjusted img-thumbnail" roundedCircle />
         <label style={{marginLeft: "1vw"}}><h2>Google</h2></label>
@@ -81,7 +83,7 @@ export const Career = (props) => (
         </FormText>
         <br/><br/><hr width="40%"></hr><br/><br/>
         <Image src={BioLeadersLogo} className="image-size-adjusted img-thumbnail" roundedCircle />
-        <label style={{marginLeft: "1vw"}}><h2>BioLeaders Corp.</h2></label>
+        <label style={{marginLeft: "1vw"}}><h2>BioLeaders Corp</h2></label>
         <FormText>
             <h3>Bundang-gu, Seongnam-si, Gyeonggi-do, South Korea</h3>
             <h3>Software Engineering Intern / Jun 2016 - Aug 2016</h3>
