@@ -25,7 +25,7 @@ const StyledNavItem = styled.div`
     margin-bottom: 0;   /* Puts space between NavItems */
     a {
         font-size: 2.5em;
-        color: ${(props) => props.active ? "black" : "gray"};
+        color: ${(props) => props.active ? "#FFCCCB" : "gray"};
         :hover {
             opacity: 0.7;
             text-decoration: none; /* Gets rid of underlining of icons */
@@ -42,7 +42,7 @@ class SideNav extends React.Component {
                 {
                     path: '/', /* path is used as id to check which NavItem is active basically */
                     name: 'Profile',
-                    css: 'fa fa-user',
+                    css: 'fa fa-home',
                     key: 1 /* Key is required, else console throws error. Does this please you Mr. Browser?! */
                 },
                 {
